@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul>li>i{
+    width: 30px;
+    text-align: center;
+    
+}
+.conta{
+    width: 300px;
+    margin: 20px;
+    background: #ccc;
+}
+.conta li{
+    list-style: none;
+    padding: 10px;
+    width: 290px;
+    /* border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background: red;
+    border: 1px solid; */
+}
+.conta li > i{
+    margin-left: 10px;
+
+}
+
+.conta li:hover {
+    background: #fff;
+    /* border: 1px solid #333; */
+    box-shadow: 2px 2px 5px #333;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+ }
