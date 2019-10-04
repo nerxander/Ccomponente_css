@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conta{
+    overflow: hidden;
+    background: #20292f;
+    color:white;
+    }
+
+    .conta > .text{
+        height: 100%;
+        width: 70%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 50px;
+        float: left;
+    }
+
+    .text > h2{
+        font-weight: lighter;
+    }
+
+    .text > p{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .conta > .butt_cont{
+        float: left;
+        width: 30%;
+        height: 100%;
+        padding-top: 10%;
+        padding-left: 8%;
+    }
+
+    .butt_cont > button{
+        font-size: 20px;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 15%;
+        background: deepskyblue;
+
+
+    }
+    .butt_cont > button:hover{
+        background: white;
+        cursor: pointer;
+    }
