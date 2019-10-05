@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content > h1 {
+    padding: 30px 0 20px 50px;
+    font-weight: lighter;
+}
+
+main{
+    padding: 0px 50px;
+}
+
+    main > aside {
+        width: 30%;
+        float: left;
+    }
+
+        aside > h2 {
+            color: #45AFFF;
+            font-weight: lighter;
+            font-size: 24px;
+            margin: 30px 0;
+        }
+
+        aside > p {
+            margin-bottom: 30px;
+        }
+
+        aside > button {
+            border: none;
+            display: block;
+            width: 100%;
+            border-radius: 10px;
+            background: #45AFFF;
+            padding: 15px;
+            font-size: 18px;
+            color: white;
+        }
+
+    main > .programas {
+        width: 67%;
+        margin-left: 3%;
+        float: left;
+    }
+        .programas > .item{
+            width: 50%;
+            float: left;
+            padding: 30px;
+        }
+
+            .programas > .item > img {
+                width: 100%;        
+            }
